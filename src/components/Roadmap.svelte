@@ -57,16 +57,16 @@
     class="flex flex-col justify-center items-center flex-1 w-[800px] max-w-full mx-auto"
 >
     <div class="flex flex-col gap-2 py-10 sm:py-14 md:py-16 -mt-4 sm:-mt-0">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-medium">
+        <h1 class="text-center text-3xl sm:text-4xl md:text-5xl font-medium">
             WELCOME <span class={"poppins capitalize text-blue-700 italic"}
                 >{$store.name}</span>
                 
         </h1>
-        <h4 class="text-center">CONTINUE YOUR CODING YOURNEY...</h4>
+        <h4 class="text-left">No one… and I mean no one starts off with any skills.  We are all very bad at everything we eventually become great at.  Very few people start off in the perfect life situation and with the perfect skillset to get what they want – and if you are waiting for that to happen in order to start, it will never happen.</h4>
     </div>
     <div class="flex flex-col gap-4 sm:gap-6 md:gap-8 w-full">
         {#each Object.keys($store.roadmap) as roadmapItem, itemIndex}
-            <button
+        <button
                 on:click={() =>
                     (window.location.href = "/chapter/" + roadmapItem)}
                 class={"relative group before:absolute before:top-0 before:left-0  before:border-t-[1.5px] before:border-l-[1.5px]  text-center before:duration-200 after:absolute after:bottom-0 after:right-0  after:border-b-[1.5px] after:border-r-[1.5px]  after:duration-200 flex flex-col  " +
@@ -93,7 +93,7 @@
                             0{itemIndex + 1}
                         </h4>
                     </div>
-                    <div class={"" + styles.subTextColor}>
+                    <div class={"text-left" + styles.subTextColor}>
                         <p>{$store.roadmap[roadmapItem].description}</p>
                     </div>
                     <div

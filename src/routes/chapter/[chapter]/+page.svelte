@@ -39,9 +39,9 @@
     <div
         class="py-4 sm:p-6 md:py-10 flex items-center justify-center flex-col gap-2"
     >
-        <p>Current Objective</p>
+        <p>CURRENT OBJECTIVE</p>
         <h4
-            class="text-blue-400 font-semibold text-2xl sm:text-3xl md:text-4xl"
+            class="text-blue-600 font-semibold text-2xl sm:text-3xl md:text-4xl"
         >
             {roadmapItem}
         </h4>
@@ -104,7 +104,7 @@
                     {$store.roadmap[roadmapItem].milestones[milestone]
                         .description}
                 </h3>
-                <h4>Start now <span class="text-blue-400">&rarr;</span></h4>
+                <h4>Start now <span class="text-blue-600">&rarr;</span></h4>
             </div>
         </a>
 
@@ -133,7 +133,7 @@
     {/each}
 
     <a href="/" class="my-10 flex items-center gap-2 mx-auto">
-        <h4>Back <span class="text-blue-400">home</span></h4>
+        <h4>Back <span class="text-blue-600">home</span></h4>
         <i class="fa-solid fa-house" />
     </a>
 </main>
