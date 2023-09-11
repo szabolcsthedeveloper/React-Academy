@@ -3,16 +3,16 @@
     import CheckListItem from "../../components/CheckListItem.svelte";
 
     const navItems = [
-        "Preparation",
-        "GitHub",
-        "LinkedIn",
-        "Portfolio",
-        "Projects",
-        "Resume / Cover Letter",
-        "Applying",
-        "Networking",
-        "Skills",
-        "The Last Step",
+        "LEARNING",
+        "GITHUB",
+        "LINKEDIN",
+        "PORTFOLIO",
+        "PROJECTS",
+        "RESUME",
+        "APPLYING",
+        "NETWORKING",
+        "SKILLS",
+        "LAST STEP",
         // 'FAQ'
     ];
 
@@ -94,29 +94,29 @@
                     <p>
                         {navItem}
                     </p>
-                    {#if navItem === "Preparation"}
+                    {#if navItem === "LEARNING"}
                         <i class="fa-regular fa-pen-to-square" />
-                    {:else if navItem === "GitHub"}
+                    {:else if navItem === "GITHUB"}
                         <i class="fa-brands fa-github" />
-                    {:else if navItem === "LinkedIn"}
+                    {:else if navItem === "LINKEDIN"}
                         <i class="fa-brands fa-linkedin-in" />
-                    {:else if navItem === "Portfolio"}
+                    {:else if navItem === "PORTFOLIO"}
                         <i class="fa-regular fa-user" />
-                    {:else if navItem === "Projects"}
+                    {:else if navItem === "PROJECTS"}
                         <i class="fa-solid fa-diagram-project" />
-                    {:else if navItem === "Job Hunting"}
+                    {:else if navItem === "JOB HUNT"}
                         <i class="fa-solid fa-list-check" />
-                    {:else if navItem === "Applying"}
+                    {:else if navItem === "APPLYING"}
                         <i class="fa-regular fa-note-sticky" />
-                    {:else if navItem === "Networking"}
+                    {:else if navItem === "NETWORKING"}
                         <i class="fa-solid fa-network-wired" />
-                    {:else if navItem === "Skills"}
+                    {:else if navItem === "SKILLS"}
                         <i class="fa-solid fa-scale-balanced" />
                     {:else if navItem === "FAQ"}
                         <i class="fa-regular fa-circle-question" />
-                    {:else if navItem === "Resume / Cover Letter"}
+                    {:else if navItem === "RESUME"}
                         <i class="fa-regular fa-file-lines" />
-                    {:else if navItem === "The Last Step"}
+                    {:else if navItem === "LAST STEP"}
                         <i class="fa-solid fa-trophy" />
                     {/if}
                 </a>
@@ -124,7 +124,7 @@
         </div>
     </section>
 
-    <JobAppSection sectionName={"Preparation"}>
+    <JobAppSection sectionName={"LEARNING"}>
         <p class="">
             The first section pertains to the minimum contents that you will
             ideally have covered before prospective employers will take you
@@ -195,7 +195,7 @@
         <!-- <CheckListItem /> -->
     </JobAppSection>
 
-    <JobAppSection sectionName={"GitHub"}>
+    <JobAppSection sectionName={"GITHUB"}>
         <p>
             GitHub is perhaps going to be your most important online network
             presence. It's a great place to portray your skillset and employers
@@ -236,7 +236,7 @@
             </li>
         </ul>
     </JobAppSection>
-    <JobAppSection sectionName={"LinkedIn"}>
+    <JobAppSection sectionName={"LINKEDIN"}>
         <p>
             As above, a friendly yet professional image is paramount, and same
             goes for your bio (links to Github page and web portfolio also).
@@ -271,7 +271,7 @@
             <li>Links to your main active projects and portfolio.</li>
         </ul>
     </JobAppSection>
-    <JobAppSection sectionName={"Portfolio"}>
+    <JobAppSection sectionName={"PORTFOLIO"}>
         <p>
             Your portfolio is a great place to really bring all your assets
             together. You can really personalize it to express yourself and put
@@ -291,7 +291,7 @@
             Best if you can acquire a SSL protected domain for your portfolio :)
         </p>
     </JobAppSection>
-    <JobAppSection sectionName={"Projects"}>
+    <JobAppSection sectionName={"PROJECTS"}>
         <p>
             Your choice of projects partially depends on what type of role
             you're looking for: Frontend, Backend or Full Stack.
@@ -373,7 +373,7 @@
             </li>
         </ul>
     </JobAppSection>
-    <JobAppSection sectionName={"Resume / Cover Letter"}>
+    <JobAppSection sectionName={"RESUME"}>
         <p>All you need to know for your <b>Resume</b> is right here:</p>
         <a
             href="https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/"
@@ -400,7 +400,7 @@
         </a>
         <p />
     </JobAppSection>
-    <JobAppSection sectionName={"Applying"}>
+    <JobAppSection sectionName={"APPLYING"}>
         <p>
             Now it's time to apply for some jobs; but where should you look? I
             found that there are four types of platforms worthy of your time and
@@ -438,7 +438,7 @@
             should be hearing back from prospective employers in no time.
         </p>
     </JobAppSection>
-    <JobAppSection sectionName={"Networking"}>
+    <JobAppSection sectionName={"NETWORKING"}>
         <h2>This section will be your magical best friend!</h2>
         <p>
             Networking is a phenomal way to increase your odds in the job
@@ -511,7 +511,7 @@
         </ul>
         <p>These two steps can be paramount in helping you land a dev role.</p>
     </JobAppSection>
-    <JobAppSection sectionName={"Skills"}>
+    <JobAppSection sectionName={"SKILLS"}>
         <p>
             In this section I just wanted to speak to one skill in particular -
         </p>
@@ -552,7 +552,7 @@
             >
         </p>
     </JobAppSection>
-    <JobAppSection sectionName={"The Last Step"}>
+    <JobAppSection sectionName={"LAST STEP"}>
         <h2>Be patient. Be persistent. Grow.</h2>
         <p>
             If you experience a rejection, take your worst project, and replace

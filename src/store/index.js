@@ -74,7 +74,8 @@ export const defaultObj = {
           iconUrlSm: "js.jpg",
           complete: false,
           primary: false,
-          description: "TODO",
+          description:
+            "Jonas Schmedtmann's advanced CSS course provides a comprehensive exploration of modern CSS techniques and hands-on projects. It covers topics from Flexbox and CSS Grid to Sass, with a notable emphasis on responsive design and the NPM ecosystem. An informative resource for understanding the nuances of CSS in-depth.",
         },
 
         "The Git & Github Bootcamp - Colt Steele": {
@@ -150,11 +151,12 @@ export const defaultObj = {
           iconUrlSm: "react_logo.jpg",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Maximilian Schwartzmüller's React course is thorough yet concise, covering everything from basics to advanced topics like React Hooks and Context API. With a variety of hands-on projects, including a fullstack NextJS app, it's a solid choice for anyone serious about mastering React.",
         },
 
         "React Zero to Mastery Course - ZTM": {
-          url: "https://www.udemy.com/course/complete-react-native-mobile-development-zero-to-mastery-with-hooks/?kw=react+zero+to+mastery&src=sac",
+          url: "https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
           imgUrl: "https://i.imgur.com/9ETBugX.pngg",
           imgUrlSm: "react-zero.png",
           iconUrl:
@@ -162,7 +164,8 @@ export const defaultObj = {
           iconUrlSm: "ztm-logo.png",
           complete: false,
           primary: false,
-          description: "TODO",
+          description:
+            "ZTM's React course was a game-changer for me. Covering everything from the latest in React 18 to handling Stripe payments, it offers a balance of depth and practicality. While it's dense and demands commitment, the payoff in real-world skills is undeniable.",
         },
 
         "Next.js Complete Guide - Maximilian Schwartzmüller": {
@@ -174,7 +177,8 @@ export const defaultObj = {
           iconUrlSm: "nextjs_logo.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Navigating through the NextJS landscape with this course was enlightening. It deftly combines key features like SSR and file-based routing with hands-on projects for real-world mastery. Whether you're diving deep or just skimming with the 'NextJS Summary' module, it offers both depth and flexibility. Highly recommended for those wanting a practical grasp of NextJS.",
         },
 
         "Meta Frontend Developer Course - Meta": {
@@ -187,7 +191,8 @@ export const defaultObj = {
           iconUrlSm: "nextjs_logo.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Diving into this course, you're not just learning web development basics but also mastering React alongside other JavaScript libraries. If you're in a rush, focus on the React and essential JavaScript refreshers. Yet, I'd endorse the entire journey, especially since it's backed by Meta, one of the tech giants. Beyond the in-depth content, completing the course bestows a valuable certificate. Plus, the interview preparation and portfolio projects are gold.",
         },
 
         "React Native Course - Maximilian Schwartzmüller": {
@@ -199,7 +204,8 @@ export const defaultObj = {
           iconUrlSm: "nextjs_logo.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Maximilian Schwartzmüller's approach to teaching ReactJS for native mobile app development is commendable. Without necessitating a foundation in Swift, ObjectiveC, or Java, he breaks down the process for both iOS and Android. From basics to advanced React Native insights, and practical application using features like Google maps and the device camera, this course is comprehensive. If you're aiming to venture into mobile app development via ReactJS, Maximilian's guidance is top-tier. Highly recommended!",
         },
       },
     },
@@ -218,7 +224,8 @@ export const defaultObj = {
             iconUrlSm: "js.jpg",
             complete: false,
             primary: true,
-            description: "TODO",
+            description:
+              "Jonas Schmedtmann's course offers an extensive journey into back-end development, spanning Node, Express, MongoDB, and Mongoose. From crafting a full application to exploring advanced security and Stripe payments, this course is a rich reservoir of knowledge. It's a must for those aiming for backend proficiency.",
           },
 
         "Docker & Kubernetes Course - Maximilian Schwartzmüller": {
@@ -230,7 +237,8 @@ export const defaultObj = {
           iconUrlSm: "docker_logo.jpg",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Maximilian Schwartzmüller's Docker and Kubernetes course is a comprehensive guide that covers both fundamentals and intricate topics like data management with Volumes. For anyone looking to get hands-on experience deploying applications, it offers multiple avenues including manual deployments and Kubernetes.",
         },
 
         "Webpack 5 Complete Guide - Udemy": {
@@ -242,7 +250,8 @@ export const defaultObj = {
           iconUrlSm: "webpack-logo.png",
           complete: false,
           primary: false,
-          description: "TODO",
+          description:
+            "This Webpack 5 course offers a no-fluff approach to mastering configurations from scratch. Understand Webpack's inner workings, integrate with Node JS and Express, and explore advanced features like the new Module Federation. A concise guide for those looking to enhance their Webpack proficiency.",
         },
       },
     },
@@ -261,21 +270,7 @@ export const defaultObj = {
           complete: false,
           primary: true,
           description:
-            "One of the most common NoSQL databases in production environment.",
-        },
-
-        "MongoDB & Mongoose - FreeCodeCamp": {
-          url: "https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/install-and-set-up-mongoose",
-          imgUrl:
-            "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
-          imgUrlSm: "mongo_db.jpg",
-          iconUrl:
-            "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
-          iconUrlSm: "fcc_logo.jpg",
-          complete: false,
-          primary: false,
-          description:
-            "One of the most common NoSQL databases in production environment.",
+            "Jonas's course brilliantly unpacks the intricacies of MongoDB and Mongoose. Through crafting a comprehensive application, students not only grasp CRUD operations but also delve into advanced features ensuring data security and efficient server-side rendering. A must-consider for anyone keen to excel in these technologies.",
         },
 
         "FreeCodeCamp - Relational Databases": {
@@ -288,7 +283,7 @@ export const defaultObj = {
           complete: false,
           primary: true,
           description:
-            "From writing bash scripts to coding and populating databases with celestial bodies - there's plently to learn.",
+            "FreeCodeCamp's Relational Database module emphasizes on foundational learning, but the heavy reliance on text and the built-in IDE can be restrictive for some learners. While it provides a solid groundwork, the lack of graphical guides might be challenging for visual learners. Still, it's beneficial for those wanting a textual deep dive, but the interface might not cater to all preferences..",
         },
 
         "SQL Bootcamp - Udemy": {
@@ -300,7 +295,8 @@ export const defaultObj = {
           iconUrlSm: "postgresql.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Udemy's SQL course stands out for its practicality. It equips learners with the skills to confidently query databases and analyze data, simulating real-world scenarios effectively. Beyond just learning SQL basics, it delves into advanced operations like GROUP BY statements. An excellent choice for those aiming to boost their resume and handle real-life data tasks.",
         },
       },
     },
@@ -317,7 +313,8 @@ export const defaultObj = {
           iconUrlSm: "ts-logo.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Maximilian Schwartzmüller's TypeScript course offers a deep dive into TypeScript's core features and its integration with ReactJS and NodeJS. Beyond theory, it provides real-world applications, making it an essential guide for anyone looking to master TypeScript effectively. Highly recommended for those transitioning from JavaScript.",
         },
 
         "AWS Fundamentals - AWS": {
@@ -329,7 +326,8 @@ export const defaultObj = {
           iconUrlSm: "aws-logo.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Coursera's AWS Fundamentals course lays the groundwork for understanding key AWS services across various domains. Not only does it guide you in designing architectural solutions tailored to specific business challenges, but it also emphasizes secure and efficient data lake operations. Moreover, it's a valuable preparatory resource for those eyeing AWS certification. Great for both beginners and those seeking a refresher.",
         },
 
         "Master The Coding Interview - ZTM": {
@@ -341,7 +339,8 @@ export const defaultObj = {
           iconUrlSm: "ztm-logo.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "I know it's a hot take, but if you don't want to spend countless hours on 'Cracking the Coding Interview', opt for ZTM's interview prep course. The material is presented in a way that ensures better retention and understanding. Plus, the hands-on approach makes you interview-ready with confidence.",
         },
 
         "Neet Code": {
@@ -353,7 +352,8 @@ export const defaultObj = {
           iconUrlSm: "neetcode-logo.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "Get ready for technical interviews, even at top tech firms. Master data structures, algorithms, and problem-solving using JavaScript. Dive deep into essential coding patterns and techniques. Solve various LeetCode-style problems to enhance your problem-solving skills.",
         },
 
         "Leet Code": {
@@ -365,7 +365,8 @@ export const defaultObj = {
           iconUrlSm: "leetcode-logo.png",
           complete: false,
           primary: true,
-          description: "TODO",
+          description:
+            "LeetCode is a valuable resource for coding interviews. Focusing on a dozen of the most common easy questions and a few mediums can significantly enhance your problem-solving skills and interview readiness. Unless you're targeting top tech giants (FAANG), this approach can suffice to excel in most interviews.",
         },
       },
     },
