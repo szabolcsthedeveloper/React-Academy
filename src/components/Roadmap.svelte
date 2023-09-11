@@ -62,7 +62,7 @@
                 >{$store.name}</span>
                 
         </h1>
-        <h4 class="text-left">No one… and I mean no one starts off with any skills.  We are all very bad at everything we eventually become great at.  Very few people start off in the perfect life situation and with the perfect skillset to get what they want – and if you are waiting for that to happen in order to start, it will never happen.</h4>
+        <h4 class="text-left">No one… and I mean no one starts off with any skills.  We are all very bad at everything we eventually become great at.  If you are waiting for someone else to do it for you, it will never happen.</h4>
     </div>
     <div class="flex flex-col gap-4 sm:gap-6 md:gap-8 w-full">
         {#each Object.keys($store.roadmap) as roadmapItem, itemIndex}
@@ -126,7 +126,7 @@
                                         styles.iconBorderColor}
                                 />
                                 <div
-                                    class="absolute inset-0 z-20 grid place-items-center bg-white rounded-full overflow-hidden blur-load"
+                                    class="absolute inset-0 z-20 grid place-items-center transparent rounded-full overflow-hidden blur-load"
                                     style="background-image: url(assets/{$store
                                         .roadmap[roadmapItem].milestones[
                                         milestone
@@ -152,7 +152,16 @@
                 {/if}
             </button>
         {/each}
-        <a href={"/job_applications"} class="flex p-0.5 mx-auto relative mt-14">
+
+        <div class="flex flex-col gap-2 py-10 sm:py-14 md:py-16 -mt-4 sm:-mt-0">
+            <h1 class="text-center text-3xl sm:text-4xl md:text-5xl font-medium mt-14" >
+                BECOME <span class={"poppins capitalize text-blue-700 italic"}>IRRESITABLE</span>
+                    
+            </h1>
+            <h4 class="text-left -mb-10">No more settling for less. Equip yourself with the skills that make top tech firms compete for <span class={"font-semibold "}>YOU!</span></h4>
+        </div>
+        
+        <a href={"/job_applications"} class="flex p-0.5 mx-auto relative">
             <div
                 class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
             >
@@ -165,8 +174,8 @@
                 class={"flex flex-1 rounded text-base relative px-8 md:px-10 md:py-5 py-4 group " +
                     styles.inputColor}
             >
-                <h4 class="group-hover:scale-[105%] duration-200 md:text-lg">
-                    LAND A DEVELOPER JOB!
+                <h4 class="group-hover:scale-[105%] duration-200 md:text-lg text-center">
+                    UNLOCK YOUR POTENTIAL
                 </h4>
             </div>
         </a>

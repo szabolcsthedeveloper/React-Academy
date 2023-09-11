@@ -13,220 +13,258 @@ export const defaultObj = {
         "HTML, CSS, and Git serve as the foundational building blocks for the majority of web development initiatives, making them an ideal starting point.",
 
       milestones: {
-        "FreeCodeCamp - Responsive Web Design": {
+        "Understanding Technology - Harvard's CS50t": {
+          url: "https://cs50.harvard.edu/technology/2017/",
+          imgUrl: "https://i.imgur.com/IxSWCel.png",
+          imgUrlSm: "cs50t.png",
+          iconUrl:
+            "https://1000logos.net/wp-content/uploads/2017/02/Colors-Harvard-Logo.jpg",
+          iconUrlSm: "harvard-logo.jpg",
+          complete: false,
+          primary: true,
+          description:
+            "Harvard's CS50 offers top-notch, free programming insights. Dive in and grasp the basics of today's tech — valuable knowledge for future interviews. Bonus: finish the course and snag a free certificate!",
+        },
+
+        "Introduction into Computer Science - Harvard's CS50x": {
+          url: "https://cs50.harvard.edu/x/2023/",
+          imgUrl: "https://i.imgur.com/bkI1dGN.png",
+          imgUrlSm: "cs50x.png",
+          iconUrl:
+            "https://1000logos.net/wp-content/uploads/2017/02/Colors-Harvard-Logo.jpg",
+          iconUrlSm: "harvard-logo.jpg",
+          complete: false,
+          primary: false,
+          description:
+            "Dive into Harvard's renowned introduction to Computer Science. If you're laser-focused on front-end mastery, this might not be your quickest path. However, don't bypass weeks 7 & 8 — David J. Malan is exceptional at making concepts stick. Just like with CS50t, you can earn a certificate at the end, but a heads-up: it's heavy on C & Python, and the exercises are a commitment. Choose wisely based on your goals!",
+        },
+
+        "Responsive Webdesign - Jonas Schmedtmann": {
+          url: "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/",
+          imgUrl: "https://i.imgur.com/42qwD05.png",
+          imgUrlSm: "responsive_web_design.png",
+          iconUrl:
+            "https://yt3.ggpht.com/a/AATXAJyJveGzQo6zVpu5T9nFix_z6RqKCTlcyUS1uA=s900-c-k-c0xffffffff-no-rj-mo",
+          iconUrlSm: "js.jpg",
+          complete: false,
+          primary: true,
+          description:
+            "Udemy frequently offers discounts, so keep an eye out! For just $15, this course is a steal. Taught by the engaging Jonas Schmedtmann, it's a hands-on adventure in HTML and CSS—the building blocks of web dev. Packed with exercises and coding challenges, it's my go-to recommendation for newcomers. Get started and lay a rock-solid web development foundation! Udemy does offer certificates upon course completion, they may not carry as much weight as some other certifications.",
+        },
+
+        "Responsive Web Design - freeCodeCamp": {
           url: "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
-          imgUrl: "https://i.imgur.com/ZFp0NAr.png",
-          imgUrlSm: "fcc-bg.png",
+          imgUrl: "https://i.imgur.com/IMUYDqm.png",
+          imgUrlSm: "responsive-webdesgin.png",
           iconUrl:
             "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
           iconUrlSm: "fcc_logo.jpg",
           complete: false,
-          primary: true,
-          description:
-            "Start your journey where I started mine! FreeCodeCamp.org have the ultimate interactive certificate to take your HTML & CSS skills from zero to hero.",
-        },
-        "The Git & Github Bootcamp": {
-          url: "https://www.udemy.com/course/git-and-github-bootcamp/?course_id=3792262",
-          imgUrl: "https://i.imgur.com/vEUBXiE.png",
-          imgUrlSm: "git_crash_course.png",
-          iconUrl:
-            "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png",
-          iconUrlSm: "git_logo.jpg",
-          complete: false,
-          primary: true,
-          description:
-            "Note: This course may seem pricey but as with most courses on Udemy they are always on sale for around $15. GIT is the version control technology used by the vast majority of developers; a truly essential skill.",
-        },
-        "The Odin Project": {
-          url: "https://www.theodinproject.com/paths/foundations/courses/foundations",
-          imgUrl:
-            "https://www.theodinproject.com/assets/og-logo-022832d4cefeec1d5266237be260192f5980f9bcbf1c9ca151b358f0ce1fd2df.png",
-          imgUrlSm: "top.jpg",
-          iconUrl:
-            "https://cdn.hashnode.com/res/hashnode/image/upload/v1659733391162/mcIUBIb6F.jpg?auto=compress,format&format=webp",
-          iconUrlSm: "top_logo_2.jpg",
-          complete: false,
-          primary: true,
-          description:
-            "The Odin Project (TOP) is an additional resource for learning the basics of web development. If FreeCodeCamp.org isn't right for you, then TOP might be!",
-        },
-        "The Internet is Hard": {
-          url: "https://internetingishard.netlify.app/html-and-css/basic-web-pages/index.html",
-          imgUrl: "https://i.imgur.com/Rqqdjlf.png",
-          imgUrlSm: "the_internet_is_hard.jpg",
-          iconUrl: "https://i.imgur.com/L2DuYDC.jpg",
-          iconUrlSm: "the_internet_is_hard_logo.jpg",
-          complete: false,
           primary: false,
           description:
-            "Another alternative resource for those looking to truly consolidate their foundational knowledge.",
+            "freeCodeCamp is packed with diverse courses, including their newly revamped Responsive Web Design module. Heads up, though: it's text-heavy. If you thrive on visuals, this might be a stretch. While they have a built-in IDE, I'd suggest spending time with local tools like VSCode. The bright side? It's super easy to dive in and code away! Complete the courses and bag yourself a nifty certification from freeCodeCamp!",
+        },
+
+        "Advanced CSS - Jonas Schmedtmann": {
+          url: "https://www.udemy.com/course/advanced-css-and-sass/",
+          imgUrl: "https://i.imgur.com/ynBhPgy.png",
+          imgUrlSm: "css.png",
+          iconUrl:
+            "https://yt3.ggpht.com/a/AATXAJyJveGzQo6zVpu5T9nFix_z6RqKCTlcyUS1uA=s900-c-k-c0xffffffff-no-rj-mo",
+          iconUrlSm: "js.jpg",
+          complete: false,
+          primary: false,
+          description: "TODO",
+        },
+
+        "The Git & Github Bootcamp - Colt Steele": {
+          url: "https://www.udemy.com/course/git-and-github-bootcamp/?course_id=3792262",
+          imgUrl: "https://i.imgur.com/02d1R0m.png",
+          imgUrlSm: "git_crash_course.png",
+          iconUrl:
+            "https://logosmarken.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          iconUrlSm: "udemy-logo.png",
+          complete: false,
+          primary: true,
+          description:
+            "Quick heads-up: Udemy often has sales, so keep an eye out for deals on courses that usually go for around $15. When it comes to version control, Git is the top choice for most developers and big companies. Dive deep into both Git and GitHub with Colt Steele's comprehensive Udemy course. Udemy does offer certificates upon course completion, they may not carry as much weight as some other certifications.",
         },
       },
     },
     JAVASCRIPT: {
       description:
-        "JavaScript is the most popular programming language used world wide!",
+        "JavaScript isn't just another programming language; it's the global superstar of the coding world! With tech giants like Google, Facebook, and Netflix relying on it, JavaScript lights up websites everywhere.",
+
       milestones: {
-        "FreeCodeCamp - JavaScript Algorithms and Data Structures": {
+        "JavaScript Zero to Expert Course - Jonas Schmedtmann": {
+          url: "https://www.udemy.com/course/the-complete-javascript-course/",
+          imgUrl: "https://i.imgur.com/OEb1kmC.png",
+          imgUrlSm: "javascript-udemy.png",
+          iconUrl:
+            "https://yt3.ggpht.com/a/AATXAJyJveGzQo6zVpu5T9nFix_z6RqKCTlcyUS1uA=s900-c-k-c0xffffffff-no-rj-mo",
+          iconUrlSm: "js.jpg",
+          complete: false,
+          primary: true,
+          description:
+            "Udemy frequently offers discounts, so keep an eye out! For just $15, this course is a steal. Unlock the deep mysteries of JavaScript with Jonas Schmedtmann. This course goes beyond the basics, delving into the intricacies of vanilla JavaScript. By the end, you'll be equipped with insights placing you ahead of 95% of JavaScript developers. Dive in and master the core of web development! And hey, while Udemy hands out certificates at the finish line, remember they're more about the journey than the prestige!",
+        },
+
+        "JavaScript Algorithms and Data Structures - FreeCodeCamp": {
           url: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
-          imgUrl: "https://i.imgur.com/jQgRQIC.png",
-          imgUrlSm: "fcc_javascript.jpg",
+          imgUrl: "https://i.imgur.com/updgkiY.png",
+          imgUrlSm: "javascript-freecodecamp.png",
           iconUrl:
             "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
           iconUrlSm: "fcc_logo.jpg",
           complete: false,
-          primary: true,
-          description:
-            "This is where I started my programming journey and I can think of no better place for anyone else to do the same!",
-        },
-        "JavaScript HTML & CSS Project": {
-          url: "https://www.youtube.com/watch?v=bnTdSbCDsmA",
-          imgUrl: "https://i.imgur.com/50TLL7X.jpg",
-          imgUrlSm: "javascript_project_1.jpg",
-          iconUrl:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-          iconUrlSm: "javascript_logo.jpg",
-          complete: false,
-          primary: true,
-          description:
-            "In this beginner project tutorial, we put them to use by building a neat CRUD (create, read, update, delete) app that exercises principles such as responsive web design, fonts, icon sets, dynamic content & more! And at the end of the video we host the project live using Netlify.",
-        },
-        "JavaScript Crash Course": {
-          url: "https://www.youtube.com/watch?v=PkZNo7MFNFg",
-          imgUrl: "https://i.imgur.com/9iB0wT9.jpg",
-          imgUrlSm: "free_javascript_crash_course.jpg",
-          iconUrl:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-          iconUrlSm: "javascript_logo.jpg",
-          complete: false,
           primary: false,
           description:
-            "This complete 134-part JavaScript tutorial for beginners will teach you everything you need to know to get started with the JavaScript programming language.",
+            "Heads up: it's text-heavy. If you thrive on visuals, this might be a stretch. While they have a built-in IDE, I'd suggest spending time with local tools like VSCode. The bright side? It's super easy to dive in and code away! Complete the courses and bag yourself a nifty certification from freeCodeCamp!",
         },
       },
     },
     FRONTEND: {
       description:
-        "JavaScript frameworks make building dynamic and interactive websites incredibly easy. There's loads to pick from but React.js is a great place to start!",
+        "React.js is the top choice for web and mobile app development, offering full control over your projects. Opt for Next.js and benefit from pre-compiled essential packages for a smoother experience.",
+
       milestones: {
-        "React Crash Course": {
-          url: "https://youtu.be/hRlujM-sycg",
-          imgUrl: "https://i.imgur.com/YUZoSNY.jpg",
-          imgUrlSm: "learn_react.jpg",
+        "Ultimate React Course - Jonas Schmedtmann": {
+          url: "https://www.udemy.com/course/the-ultimate-react-course/",
+          imgUrl: "https://i.imgur.com/DaA25aA.png",
+          imgUrlSm: "react-jonas.png",
+          iconUrl:
+            "https://yt3.ggpht.com/a/AATXAJyJveGzQo6zVpu5T9nFix_z6RqKCTlcyUS1uA=s900-c-k-c0xffffffff-no-rj-mo",
+          iconUrlSm: "js.jpg",
+          complete: false,
+          primary: true,
+          description:
+            "Explore React's depths with Jonas Schmedtmann. While it doesn't cover React Native now, expect it in 2024. By completing this course, you'll surpass 95% of React developers in know-how.",
+        },
+
+        "React Complete Guide - Maximilian Schwartzmüller": {
+          url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/?kw=react&src=sac",
+          imgUrl: "https://i.imgur.com/S2WpjD6.png",
+          imgUrlSm: "react-max.png",
           iconUrl:
             "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
           iconUrlSm: "react_logo.jpg",
           complete: false,
           primary: true,
-          description:
-            "Learn React.js by putting together a Lord Of The Rings information site that fetches data from an API and has some funky dynamic componentry to render it out.",
+          description: "TODO",
         },
-        "React Beginner Project": {
-          url: "https://youtu.be/lp4lWkPCZDg",
-          imgUrl: "https://i.imgur.com/kpdA8Ea.jpg",
-          imgUrlSm: "react_project.jpg",
+
+        "React Zero to Mastery Course - ZTM": {
+          url: "https://www.udemy.com/course/complete-react-native-mobile-development-zero-to-mastery-with-hooks/?kw=react+zero+to+mastery&src=sac",
+          imgUrl: "https://i.imgur.com/9ETBugX.pngg",
+          imgUrlSm: "react-zero.png",
           iconUrl:
-            "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
-          iconUrlSm: "react_logo.jpg",
+            "https://dev.mrdbourke.com/tensorflow-deep-learning/assets/misc-ztm-logo.png",
+          iconUrlSm: "ztm-logo.png",
           complete: false,
           primary: false,
-          description:
-            "In this video, we build a transcription and translation web application that runs 2 machine learning models in the users browser for free with React.js, Huggingface.js & TailwindCSS.",
+          description: "TODO",
         },
-        "NEXT.JS Crash Course": {
-          url: "https://youtu.be/oLPgc5Fp2Ts",
-          imgUrl: "https://i.imgur.com/4cHVNRT.jpg",
-          imgUrlSm: "nextjs_project.jpg",
+
+        "Next.js Complete Guide - Maximilian Schwartzmüller": {
+          url: "https://www.udemy.com/course/nextjs-react-the-complete-guide/",
+          imgUrl: "https://i.imgur.com/fBDzVwO.png",
+          imgUrlSm: "nextjs-max.png",
           iconUrl:
             "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3244252/nextjs-icon-md.png",
           iconUrlSm: "nextjs_logo.png",
           complete: false,
           primary: true,
-          description:
-            "In this Next.js E-commerce Store tutorial, we cover using technology like Zustand for global state management in our App, the Stripe API for all our product and transaction handling, and TailwindCSS to design and stylize our web app.",
+          description: "TODO",
         },
-        "SvelteKit Crash Course": {
-          url: "https://youtu.be/TIbL0VOE900",
-          imgUrl: "https://i.imgur.com/ZTabOHs.jpg",
-          imgUrlSm: "sveltekit crash course.jpg",
+
+        "Meta Frontend Developer Course - Meta": {
+          url: "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+          imgUrl: "https://i.imgur.com/gI5U4l7.png",
+          imgUrlSm: "meta-frontend.png",
           iconUrl:
-            "https://a.storyblok.com/f/88751/1702x2049/619c584101/svelte_logo.png",
-          iconUrlSm: "sveltekit_logo.jpg",
+            "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
+
+          iconUrlSm: "nextjs_logo.png",
           complete: false,
-          primary: false,
-          description:
-            "In this video, we cover all the best practices for svelte stores, state management, authentication, routes, styling, responsive web app development and learn how we can implement all the CRUD operations using Firestore and Firebase Auth.",
+          primary: true,
+          description: "TODO",
         },
-        "Qwik Crash Course": {
-          url: "https://youtu.be/4a75F4FEArs",
-          imgUrl: "https://i.imgur.com/Uy6ZehU.jpg",
-          imgUrlSm: "qwik.jpg",
+
+        "React Native Course - Maximilian Schwartzmüller": {
+          url: "https://www.udemy.com/course/react-native-the-practical-guide/",
+          imgUrl: "https://i.imgur.com/bQMfkpw.png",
+          imgUrlSm: "react-native.png",
           iconUrl:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJPTH86DL8E2kxm09LcFERIItqIzf7TIWXrN3mr-4&s",
-          iconUrlSm: "qwik_logo.jpg",
+            "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
+          iconUrlSm: "nextjs_logo.png",
           complete: false,
-          primary: false,
-          description:
-            "In this video we look at how we can build modern CRUD apps with TailwindCSS & Qwik.",
-        },
-        "Full Stack Open - React": {
-          url: "https://fullstackopen.com/en/about",
-          imgUrl: "https://i.imgur.com/kDm2nw4.png",
-          imgUrlSm: "fso.jpg",
-          iconUrl: "https://i.imgur.com/kDm2nw4.png",
-          iconUrlSm: "fso.jpg",
-          complete: false,
-          primary: false,
-          description:
-            "Consolidate your React skills by completing this comprehesive curriculum.",
+          primary: true,
+          description: "TODO",
         },
       },
     },
-    "Backend Server Frameworks": {
+
+    BACKEND: {
       description:
-        "If you're looking to extend your capabilites beyound Frontend development into Full Stack development, then it's time to explore some Backend tech!",
+        "Ready to expand your horizons? Beyond frontend lies the powerful realm of backend tech. Dive in and begin your transformative journey into Full Stack development!",
       milestones: {
-        "Node.js & Express.js Crash Course": {
-          url: "https://youtu.be/V8ePZHOjRQo",
-          imgUrl: "https://i.imgur.com/67MYdDZ.jpg",
-          imgUrlSm: "node_crash_course.jpg",
-          iconUrl:
-            "https://pluralsight2.imgix.net/paths/images/nodejs-45adbe594d.png",
-          iconUrlSm: "node_logo.jpg",
-          complete: false,
-          primary: true,
-          description:
-            "In this video, we look at all the fundamentals needed to start developing your own Node.js applications today!",
-        },
-        "Dockerized Node.js & PostgreSQL Tutorial": {
-          url: "https://youtu.be/sDPw2Yp4JwE",
-          imgUrl: "https://i.imgur.com/DaDO7s6.jpg",
-          imgUrlSm: "docker_app.jpg",
+        "Node.js & Express.js and MongoDB Complete Course - Jonas Schmedtmann":
+          {
+            url: "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+            imgUrl: "https://i.imgur.com/1Dr3uTH.png",
+            imgUrlSm: "nodejs.png",
+            iconUrl:
+              "https://yt3.ggpht.com/a/AATXAJyJveGzQo6zVpu5T9nFix_z6RqKCTlcyUS1uA=s900-c-k-c0xffffffff-no-rj-mo",
+            iconUrlSm: "js.jpg",
+            complete: false,
+            primary: true,
+            description: "TODO",
+          },
+
+        "Docker & Kubernetes Course - Maximilian Schwartzmüller": {
+          url: "https://www.udemy.com/course/docker-kubernetes-the-practical-guide/",
+          imgUrl: "https://i.imgur.com/LRcN0L0.png",
+          imgUrlSm: "docker.png",
           iconUrl:
             "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
           iconUrlSm: "docker_logo.jpg",
           complete: false,
           primary: true,
-          description:
-            "In this video, we look at how we can build a CRUD backend server with Nodejs Express and a PostgreSQL database, and then we dockerize our entire application in Docker containers, and run everything using a compose.yaml file. ",
+          description: "TODO",
         },
-        "Full Stack Open - Node": {
-          url: "https://fullstackopen.com/en/about",
-          imgUrl: "https://i.imgur.com/kDm2nw4.png",
-          imgUrlSm: "fso.jpg",
-          iconUrl: "https://i.imgur.com/kDm2nw4.png",
-          iconUrlSm: "fso.jpg",
+
+        "Webpack 5 Complete Guide - Udemy": {
+          url: "https://www.udemy.com/course/webpack-from-beginner-to-advanced/",
+          imgUrl: "https://i.imgur.com/0PSTdYj.png",
+          imgUrlSm: "webpack.png",
+          iconUrl:
+            "https://paulmiller3000.com/wp-content/uploads/Webpack-logo.png",
+          iconUrlSm: "webpack-logo.png",
           complete: false,
           primary: false,
-          description:
-            "Dive deeper into backend development with Node.js and incorporating it with frontend and database systems.",
+          description: "TODO",
         },
       },
     },
-    "Databases Pt.1 - NoSQL": {
-      description: "It's time to persist data - all the data... all of it!",
+
+    DATABASES: {
+      description:
+        "Ready to master data storage? Dive deep and learn how to manage and persist every bit of crucial information!",
       milestones: {
-        "FreeCodeCamp - MongoDB & Mongoose": {
+        "MongoDB & Mongoose - Jonas Schmedtmann": {
+          url: "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+          imgUrl: "https://i.imgur.com/1Dr3uTH.png",
+          imgUrlSm: "nodejs.png",
+          iconUrl:
+            "https://yt3.ggpht.com/a/AATXAJyJveGzQo6zVpu5T9nFix_z6RqKCTlcyUS1uA=s900-c-k-c0xffffffff-no-rj-mo",
+          iconUrlSm: "js.jpg",
+          complete: false,
+          primary: true,
+          description:
+            "One of the most common NoSQL databases in production environment.",
+        },
+
+        "MongoDB & Mongoose - FreeCodeCamp": {
           url: "https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/install-and-set-up-mongoose",
           imgUrl:
             "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
@@ -235,28 +273,11 @@ export const defaultObj = {
             "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
           iconUrlSm: "fcc_logo.jpg",
           complete: false,
-          primary: true,
+          primary: false,
           description:
             "One of the most common NoSQL databases in production environment.",
         },
-        "Firebase Firestore": {
-          url: "https://youtu.be/LefcqnZHYeg",
-          imgUrl: "https://i.imgur.com/9NkfMoP.jpg",
-          imgUrlSm: "firebase.jpg",
-          iconUrl:
-            "https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png",
-          iconUrlSm: "firebase_logo.jpg",
-          complete: false,
-          primary: true,
-          description:
-            "We look at how we can persist dynamic information from a user in a React application, and how we can Create, Read, Update & Delete (CRUD) in Google's Firestore NoSQL database.",
-        },
-      },
-    },
-    "Databases Pt.2 - SQL": {
-      description:
-        "Learning how to maintain a relational database is essential for managing big data applications & much more!",
-      milestones: {
+
         "FreeCodeCamp - Relational Databases": {
           url: "https://www.freecodecamp.org/learn/relational-database/",
           imgUrl: "https://i.imgur.com/0AmFayz.png",
@@ -269,17 +290,82 @@ export const defaultObj = {
           description:
             "From writing bash scripts to coding and populating databases with celestial bodies - there's plently to learn.",
         },
-        "SQL Crash Course": {
-          url: "https://www.youtube.com/watch?v=HXV3zeQKqGY",
-          imgUrl: "https://i.imgur.com/aNr9cBn.jpg",
-          imgUrlSm: "sql.jpg",
+
+        "SQL Bootcamp - Udemy": {
+          url: "https://www.udemy.com/course/the-complete-sql-bootcamp/",
+          imgUrl: "https://i.imgur.com/5OinOqK.png",
+          imgUrlSm: "sql.png",
           iconUrl:
-            "https://user-images.githubusercontent.com/24623425/36042969-f87531d4-0d8a-11e8-9dee-e87ab8c6a9e3.png",
-          iconUrlSm: "sql_logo.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1280px-Postgresql_elephant.svg.png",
+          iconUrlSm: "postgresql.png",
           complete: false,
           primary: true,
-          description:
-            "Learn all the basic SQL commands for managing big data fast and efficiently.",
+          description: "TODO",
+        },
+      },
+    },
+    EXTRAS: {
+      description:
+        "Want to go beyond the basics and really stand out as a React developer? Brush up on some extra technologies, frameworks, and soft skills to make sure you're the full package!",
+      milestones: {
+        "TypeScript Course - Maximilian Schwartzmüller": {
+          url: "https://www.udemy.com/course/understanding-typescript/",
+          imgUrl: "https://i.imgur.com/3jXM4Dz.png",
+          imgUrlSm: "ts.png",
+          iconUrl:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+          iconUrlSm: "ts-logo.png",
+          complete: false,
+          primary: true,
+          description: "TODO",
+        },
+
+        "AWS Fundamentals - AWS": {
+          url: "https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect",
+          imgUrl: "https://i.imgur.com/BIvfLiC.png",
+          imgUrlSm: "aws.png",
+          iconUrl:
+            "https://www.theeggbrussels.com/wp-content/uploads/2018/05/logo-AWS-1024x658.png",
+          iconUrlSm: "aws-logo.png",
+          complete: false,
+          primary: true,
+          description: "TODO",
+        },
+
+        "Master The Coding Interview - ZTM": {
+          url: "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+          imgUrl: "https://i.imgur.com/fZuMlJR.png",
+          imgUrlSm: "interview.png",
+          iconUrl:
+            "https://dev.mrdbourke.com/tensorflow-deep-learning/assets/misc-ztm-logo.png",
+          iconUrlSm: "ztm-logo.png",
+          complete: false,
+          primary: true,
+          description: "TODO",
+        },
+
+        "Neet Code": {
+          url: "https://neetcode.io/courses",
+          imgUrl: "https://i.imgur.com/Rh3DKV1.png",
+          imgUrlSm: "neetcode.png",
+          iconUrl:
+            "https://yt3.ggpht.com/FqiGBOsNpeWbNw20ULboW0jy88JdpqFO9a-YRJ0C2oc4lZ8uoHYJ38PWSkrjdC_zQgNW9pGU=s240-c-k-c0x00ffffff-no-rj",
+          iconUrlSm: "neetcode-logo.png",
+          complete: false,
+          primary: true,
+          description: "TODO",
+        },
+
+        "Leet Code": {
+          url: "https://leetcode.com/explore/",
+          imgUrl: "https://i.imgur.com/3oD2wls.png",
+          imgUrlSm: "leetcode.png",
+          iconUrl:
+            "https://i0.wp.com/turingplanet.org/wp-content/uploads/2020/05/LeetCode_logo.png?resize=400%2C400&ssl=1",
+          iconUrlSm: "leetcode-logo.png",
+          complete: false,
+          primary: true,
+          description: "TODO",
         },
       },
     },

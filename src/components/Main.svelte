@@ -41,7 +41,7 @@
             <h1
                 class="text-3xl sm:text-4xl md:text-5xl font-semibold text-center"
             >
-                YOU LANDED IN THE WEBDEV
+                YOU LANDED IN THE REACT
                 <span class={" " + styles.accentColor}>ROADMAP</span>
             </h1>
 

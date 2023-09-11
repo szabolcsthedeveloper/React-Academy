@@ -53,7 +53,6 @@
             class={"relative group flex flex-col group cursor-pointer border-[1.5px] duration-200 border-solid " +
                 styles.borderColor}
         >
-            <!-- <div class="bg-blue-600 blur-lg absolute inset-4 z-0" /> -->
 
             <div
                 class="aspect-video overflow-hidden z-20 relative blur-load"
@@ -67,7 +66,7 @@
                         <h3
                             class="font-semibold text-center text-2xl sm:text-3xl uppercase z-20 md:text-4xl text-green-400"
                         >
-                            Complete 🔥
+                            COMPLETED 🔥
                         </h3>
                     </div>
                 {/if}
@@ -107,33 +106,10 @@
                 <h4>Start now <span class="text-blue-600">&rarr;</span></h4>
             </div>
         </a>
-
-        <!-- <div class="relative group flex flex-col">
-            <div
-                class="absolute bottom-0 w-full bg-gradient-to-t from-slate-900 p-2 sm:p-3 md:p-4 to-transparent group-hover:to-slate-900 duration-200 group-hover:pt-4 pt-4 sm:pt-6 md:pt-8 text-white z-30 flex gap-2 flex-col"
-            >
-                <div class="flex items-center justify-between gap-4">
-                    <p class="md:text-lg truncate">{milestone}</p>
-                </div>
-                <h3>
-                    {$store.roadmap[roadmapItem].milestones[milestone]
-                        .description}
-                </h3>
-            </div>
-            <div class="bg-blue-400 blur-lg absolute inset-4 z-0" />
-            <div class="aspect-video overflow-hidden z-20 relative">
-                <img
-                    src={$store.roadmap[roadmapItem].milestones[milestone]
-                        .imgUrl}
-                    alt="video thumbnail"
-                    class="w-full h-full object-cover"
-                />
-            </div>
-        </div> -->
     {/each}
 
     <a href="/" class="my-10 flex items-center gap-2 mx-auto">
-        <h4>Back <span class="text-blue-600">home</span></h4>
+        <h4>BACK <span class="text-blue-600">HOME</span></h4>
         <i class="fa-solid fa-house" />
     </a>
 </main>

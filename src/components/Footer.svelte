@@ -107,7 +107,7 @@
 >
     {#if $store.name}
         <div class="flex flex-col gap-4">
-            <h4 class="text-center">Enjoying the guide? Leave a review!</h4>
+            <h4 class="text-center">ENJOYING THE GUIDE? LEAVE A RATING!</h4>
             <div class="flex items-center justify-center">
                 {#each [1, 2, 3, 4, 5] as ratingNum}
                     <button
