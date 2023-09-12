@@ -10,7 +10,7 @@
 
     styles = {
       inputColor: darkTheme ? " bg-slate-950" : " bg-white",
-      accentColor: darkTheme ? " text-blue-700" : " text-blue-500",
+      accentColor: darkTheme ? " text-blue-700" : " text-blue-800",
       fadedColor: darkTheme ? " text-slate-200 " : " text-slate-500",
       blueText: darkTheme ? " text-blue-700" : " text-blue-500",
       amberText: darkTheme ? " text-amber-400" : " text-amber-500",

@@ -161,7 +161,7 @@
         class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
       >
         <div
-          class="bg-gradient-to-r w-[200%] aspect-square from-blue-700 to-cyan-500 specialSpin"
+          class="bg-gradient-to-r w-[200%] aspect-square from-blue-700 to-cyan-600 specialSpin"
         />
       </div>
 
