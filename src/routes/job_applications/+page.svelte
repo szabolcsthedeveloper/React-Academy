@@ -535,7 +535,7 @@
     <a
       href="https://leetcode.com/explore/"
       target="_blank"
-      class="flex items-center gap-4 mb-20"
+      class="flex items-center gap-4 mb-12"
     >
       <p class="break-all underline">
         Leetcode Easy ( Few mediums → optional )
@@ -555,7 +555,7 @@
     <i class="mb-4"
       >They usually start with: Tell me about a time… Give me an example of…</i
     >
-    <ol class="flex flex-col gap-2 list-decimal list-inside mb-16">
+    <ol class="flex flex-col gap-2 list-decimal list-inside mb-12">
       <li class="mb-2">
         <b class="text-blue-600">Teamwork</b> (how you deal with other people)
         <h2 class="mb-1">
@@ -721,7 +721,7 @@
       <i class="fa-solid fa-search" />
     </div>
 
-    <ul class="flex flex-col gap-2 list-disc list-inside pt-4 mb-16">
+    <ul class="flex flex-col gap-2 list-disc list-inside pt-4 mb-12">
       <b class="text-blue-600">LinkedIN Job Search Queries:</b>
       <li class="mb-2">
         "junior" AND front end AND (NOT senior NOT sr NOT mid NOT intern)
@@ -733,7 +733,7 @@
       <li>react AND "we're hiring"</li>
     </ul>
 
-    <ul class="flex flex-col gap-2 list-disc list-inside pt-4 mb-16">
+    <ul class="flex flex-col gap-2 list-disc list-inside pt-4 mb-12">
       <div class="flex items-center gap-4 mb-4">
         <i class="fa-solid fa-envelope" />
         <b class=""

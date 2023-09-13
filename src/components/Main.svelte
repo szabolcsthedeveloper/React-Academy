@@ -9,6 +9,7 @@
     let darkTheme = $store.darkTheme;
 
     styles = {
+      backgroundColor: darkTheme ? "bg-black" : "bg-white",
       inputColor: darkTheme ? " bg-slate-950" : " bg-white",
       accentColor: darkTheme ? " text-blue-700" : " text-blue-800",
       fadedColor: darkTheme ? " text-slate-200 " : " text-slate-500",

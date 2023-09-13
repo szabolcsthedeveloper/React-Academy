@@ -1,9 +1,6 @@
 <script>
   import { onMount } from "svelte";
   import store from "../store";
-  let email = "";
-  let emailStatus = "";
-  let error = false;
   let rating = null;
   let chosenRating = null;
 
@@ -30,44 +27,6 @@
     };
   }
 
-  async function handleSubscribe() {
-    if (!email || emailStatus !== "") {
-      return;
-    }
-
-    emailStatus = "sending";
-    try {
-      const res = await fetch(
-        "https://mailing-list-3hzb.onrender.com/api/register",
-        {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json",
-          },
-          body: JSON.stringify({
-            password: "80085",
-            email,
-            platform: "course",
-          }),
-        },
-      );
-      if (res.status === "201") {
-        console.log("Sent");
-      }
-      emailStatus = "sent";
-      email = "";
-    } catch (err) {
-      console.log("Failed to subscribe");
-      emailStatus = "";
-    }
-  }
-
-  const onKeyPress = (e) => {
-    if (e.charCode === 13) {
-      handleSubscribe();
-    }
-  };
-
   async function handleRating() {
     if (!rating || chosenRating) {
       return;
@@ -78,7 +37,6 @@
 
     try {
       const res = await fetch(
-        // "http://localhost:5353/api/rate",
         "https://mailing-list-3hzb.onrender.com/api/rate",
         {
           method: "POST",
@@ -124,41 +82,6 @@
     </div>
   {/if}
 
-  <div class="flex flex-col gap-4">
-    <h4 class="text-center">
-      INTERESTED IN <span class="text-blue-600">WEB DEVELOPMENT</span> COURSE? -
-      JOIN THE WAITING LIST!
-    </h4>
-    <div
-      class={"flex mx-auto w-full max-w-96 border border-solid  duration-200 rounded overflow-hidden " +
-        styles.inputColor}
-    >
-      <input
-        on:keypress={onKeyPress}
-        class="flex-1 p-2 outline-none focus:outline-none bg-transparent"
-        placeholder="Email"
-        bind:value={email}
-      />
-      <button
-        on:click={handleSubscribe}
-        class="grid place-items-center relative"
-      >
-        <i
-          class={"fa-regular fa-envelope px-3 cursor-pointer hover:text-blue-600 duration-200 " +
-            (emailStatus != "" ? " opacity-0" : " opacity-100")}
-        />
-        {#if emailStatus === "sending"}
-          <div class="absolute inset-0 grid place-items-center">
-            <i class="fa-solid fa-spinner animate-spin" />
-          </div>
-        {:else if emailStatus === "sent"}
-          <div class="absolute inset-0 grid place-items-center">
-            <i class="fa-solid fa-check text-green-400" />
-          </div>
-        {/if}
-      </button>
-    </div>
-  </div>
   <div class="flex flex-col gap-4">
     <h4 class="text-center">LINKS TO A GOOD TIME</h4>
     <div class="flex gap-4 items-center flex-wrap justify-center text-3xl">

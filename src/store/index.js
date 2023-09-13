@@ -13,19 +13,6 @@ export const defaultObj = {
         "HTML, CSS, and Git serve as the foundational building blocks for the majority of web development initiatives, making them an ideal starting point.",
 
       milestones: {
-        "Understanding Technology - Harvard's CS50t": {
-          url: "https://cs50.harvard.edu/technology/2017/",
-          imgUrl: "https://i.imgur.com/IxSWCel.png",
-          imgUrlSm: "cs50t.png",
-          iconUrl:
-            "https://1000logos.net/wp-content/uploads/2017/02/Colors-Harvard-Logo.jpg",
-          iconUrlSm: "harvard-logo.jpg",
-          complete: false,
-          primary: true,
-          description:
-            "Harvard's CS50 offers top-notch, free programming insights. Dive in and grasp the basics of today's tech — valuable knowledge for future interviews. Bonus: finish the course and snag a free certificate!",
-        },
-
         "Introduction into Computer Science - Harvard's CS50x": {
           url: "https://cs50.harvard.edu/x/2023/",
           imgUrl: "https://i.imgur.com/bkI1dGN.png",

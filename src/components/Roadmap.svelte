@@ -144,10 +144,10 @@
 
     <div class="flex flex-col gap-2 py-10 sm:py-14 md:py-16 -mt-4 sm:-mt-0">
       <h1
-        class="text-center text-3xl sm:text-4xl md:text-5xl font-medium mt-14"
+        class="text-center text-2xl sm:text-3xl md:text-4xl font-medium mt-14"
       >
-        BECOME <span class={"poppins capitalize text-blue-700 italic"}
-          >IRRESITABLE</span
+        MAKE RECRUITERS FIGHT FOR <span
+          class={"poppins capitalize text-blue-700 italic"}>YOU!</span
         >
       </h1>
       <h4 class="text-left -mb-10">
