@@ -1,5 +1,7 @@
 # React Academy 
 ![Screenshot 2023-09-22 at 8 41 37](https://github.com/szabolcsthedeveloper/React-Academy/assets/109295080/a5102a62-c123-40ed-bb5a-1c589e9b6fcb)
+![image](https://github.com/szabolcsthedeveloper/React-Academy/assets/109295080/038d402e-e9c5-4700-9a25-04d5ed39ac71)
+
 
 Dive into **React Academy**, where your transformation from a budding developer to a sought-after React expert begins. This isn't just another course—it's the launchpad to the tech career of your dreams. Don't be the one to look back with regret—grab the opportunity now and emerge triumphant in the digital landscape!
 
