@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.specialShadow {
+  border: 1.5px solid #2562e8;
+  box-shadow: 3px 3px 0 0 #1d4bb0;
+  transition-duration: 200ms;
+}
+
+.specialBtn {
+  border: 1.5px solid #2562e8;
+  box-shadow: 3px 3px 0 0 #2562e8;
+}
+
+.specialBtn:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 6px 6px 0 0 #2562e8;
+}
+
+.specialSpin {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blueShadow {
+  box-shadow: 0 0 4px 1px #2562e8;
+}
+
+.blur-load {
+  background-size: cover;
+  background-position: center;
+}
+
+.img {
+  object-position: center;
+  object-fit: cover;
+}
