@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # roadmap-v2
 
 Learn to Code for free and land a developer job by completing this 2023 Self-Taught Web Developer Roadmap. The Roadmap teaches all the latest and greatest frameworks, languages & technology in a logical and achievable sequence, helps you prepare yourself for job interviews, and gives you all the best tips on how to land a Developer role.
-=======
 # React Academy 
 ![Screenshot 2023-09-22 at 8 41 37](https://github.com/szabolcsthedeveloper/React-Academy/assets/109295080/a5102a62-c123-40ed-bb5a-1c589e9b6fcb)
 ![image](https://github.com/szabolcsthedeveloper/React-Academy/assets/109295080/038d402e-e9c5-4700-9a25-04d5ed39ac71)
@@ -76,8 +74,6 @@ Uncover the soft skills that make the difference between a good developer and a 
 
 ### Final Step
 Remember, this is a marathon, not a race. Persistence, patience, and showing up each day will pave your path to success.
-
----
 
 Get started with **React Academy** and reshape your future. The tech world awaits your expertise! 🌟
 >>>>>>> c17ab71c7c2a44849249b1a8384e33aedabe8ff3
