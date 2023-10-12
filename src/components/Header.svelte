@@ -88,18 +88,30 @@
             </h4>
           </div>
           <div class="flex flex-col gap-0.5">
+<<<<<<< HEAD
             {#if count < 26}
+=======
+            {#if count < 24}
+>>>>>>> c17ab71c7c2a44849249b1a8384e33aedabe8ff3
               <div
                 class={"flex items-center justify-between text-xs sm:text-sm italic " +
                   styles.fadedColor}
               >
                 <h4>Progress</h4>
+<<<<<<< HEAD
                 <h4>{count} / 26</h4>
+=======
+                <h4>{count} / 24</h4>
+>>>>>>> c17ab71c7c2a44849249b1a8384e33aedabe8ff3
               </div>
               <div class={" relative h-1 " + styles.progressBarColor}>
                 <div
                   class="h-full absolute top-0 left-0 bg-blue-600"
+<<<<<<< HEAD
                   style={`width: ${(count * 100) / 26}%;`}
+=======
+                  style={`width: ${(count * 100) / 24}%;`}
+>>>>>>> c17ab71c7c2a44849249b1a8384e33aedabe8ff3
                 />
               </div>
             {:else}
